@@ -1,0 +1,14 @@
+FROM tomcat:8.5-jre8-alpine
+
+ARG CLICK_VERSION
+ARG REDIS_HOST
+
+RUN export REDIS_HOST=$REDIS_HOST
+ADD https://github.com/demethyl/click-count/releases/download/$CLICK_VERSION/clickCount.war /tmp/
+
+RUN echo $REDIS_HOST
+
+# put the copied war into the catalina webapps folder
+RUN mv /tmp/clickCount.war $CATALINA_HOME/webapps
+
+RUN /usr/local/tomcat/bin/startup.sh
