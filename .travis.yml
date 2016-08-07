@@ -9,5 +9,5 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
-  apikey:
+  api_key:
     secure: xn+mn/ifxmB33vlUrmaAyCQ32tc7+C+U2ecO/XBZ3Gq1HEZ+uWtNodC/IYja9Lk38Hj+PdZ8ADkMZFVkgLWnRKEk4mU8d2TJnhZMxDzo1lHGeKReAYeK34y1Q6skAyDDq8x6lenB/qvfptocFuoE3K4XfyNKNcUCK1RASGR26Khy0l/GR35LjB0dEBHI0sZkO/3fvMfuDFp++Y++zELi8Eh9ttM3wXVt1EB1YRMF2omsvUNhdGRcOzynLX5U2nqchilVf6k/4ucQU/2McBzIsxnsyCy0N7vx/kEDktk9qyXijo32Jglpta7wPiuu+pD37xZDoJQWLwHQ3/Pp36jiq5jXzEKOrvWa1Kg6ipzFSWmR03uB/tp3NVtOAIlHYXdECiEpAoB+fglMDa/Yoxds1OsB3qli9rYluZedHyEBFVFbuOPiTR86EQrVk0cWmCNs7s1o0WD7uHdB9uunL4JF1cbhWqVu9Cw5rHuvAZiEgH3h6x7ddFddgLc86nuZe6MIq1//RJi1pa64RWKILkfG7cdIrTiSTCgebe7IxB/RaoSIlY4v7KxNWlPpUEpUzK23VkkIB84+nDlvGBn4BiUXOo2Nn6Xs3DXOdYZu9PoHMywX9hBi8vGrH0ChPD45Zl4viPF0QrbdcXGPjArGM7TsPrFJn7mNfZDFHfJ/lRTGVo4=
