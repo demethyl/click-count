@@ -5,7 +5,7 @@ install:
 - mvn clean package
 deploy:
   provider: releases
-    file: "target/clickCount.war"
+  file: "target/clickCount.war"
   skip_cleanup: true
   on:
     branch: releases
