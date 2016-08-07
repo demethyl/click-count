@@ -4,5 +4,16 @@ jdk:
 
 install:
    - mvn clean package
+
 deploy:
-   provider: releases
+  provider: releases
+  api_key:
+    secure: "cc11a152d35e6cd8f346e07c257ea02918d10e78"
+  file: "target/clickCount.war"
+  skip_cleanup: true
+  on:
+    branch: releases
+    tags: true
+
+  env:
+    - TRAVIS_TAG=v1.0
