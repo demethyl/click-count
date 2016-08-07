@@ -8,7 +8,6 @@ deploy:
   file: "target/clickCount.war"
   skip_cleanup: true
   on:
-    branch: releases
     tags: true
   password:
     secure: hnKo6gIFYyyZXuu9feAUBhQL2qVHC4+t2gc1wjygPN5eAHBoKC7gHilKh51CzkioBIaAy7+0cu6qxxbwtdeV9K2u5xBlPXdeCs6entPNGDGFa3EszFx6ls4xW9kMoCggChhVZwFht0mAAGD66TWPUD7BrRqmTNOK6osAyuxNBCmuOpiVw/7VvDCVyqAEi0N5gitLSCSbcTtQbbMr73l+Fk3qiof+vbNfH4UMt5Z61cnV/VIg3iRGkR41q1kcWqVjhG23aVHd//aivyQR8DtB/5Xl/jHGdBmd9dPS1TllFab3x5b1Ocg0WI4Or2BC5kwql8iqzhAGUAKQhxVbmQQCFK8nEpYbTFioXb03E1cAeFcHuiKB83WSEkqH8W0SoYHQoN/jExglIDI6z0F/rrGRekA+tfCcD7/ogIDewf1HNUvSofrXn8S/N3rDBEf8ktaqnCGEvUqUdDjWKUX7iSMd4BZ8KJ2KQXq3HgimQUQPOltSpGflzLag2gL44gpXJR9CBQr3iu/leBgJlBTxbiiK04ij1GfBpHZa+6zrHJdBNbHP2BgRGviSJLwHPO+6tdJeI1P7w3QxgGvMsWdb8iSoAx8xxJbT9RrzdvAFIe1yLP9G9Cra3y2pIt/lfRa8bLfiUNY7ShUpOV9Dya9nYi6SgaY4RsFVe8/VWOS3iUnZovU=
